@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/plugins/Notas_BTPLAN">
+    <file>help/icons/icon.png</file>
+  </qresource>
+</RCC>

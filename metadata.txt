@@ -1,0 +1,63 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Anotações do BTPlan
+qgisMinimumVersion=2.18
+description=Mostra anotações do BTPlan: Barra de Mensagem/Dica do Mapa.
+version=1.1
+author=Eulimar Cunha Tiburcio / IBGE - SBT/CE
+email=eulimar.tiburcio@ibge.gov.br
+
+about=Este plugin mostra em Barra de Mensagem as anotações registradas no BTPlan baixadas em formato KML e o conteúdo dessas anotações na janela de mapa, ao passar o mouse sobre a feição !!!
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog=  v1.1:
+            -Dimensionamento da frame para dica do mapa de acordo com a resolução da tela.
+			v1.0:
+            -Redução no tamanho do vídeo ilustrativo, visando a utilização mínima de memória.
+			v0.9:
+            -Melhorias na GUI (Interface Gráfica do Usuário).
+			v0.8:
+            -Possibilidade de fazer o download do material usado no vídeo ilustrativo.
+			v0.7:
+            -Alteração na forma de captura da informação adicional para a camada de anotação.
+			v0.6:
+            -O plugin foi implementado para que alguma informação útil que não foi possível incluir no ambiente do BTPlan seja incluída no ambiente do QGIS antes que a camada de anotação seja carregada.
+			v0.5:
+            -O plugin foi ajustado para se adequar às alterações efetuadas no BTPlan.
+			
+			v0.4:
+            -A apresentação do plugin no menu Vetor do QGIS foi retirada!!!
+			
+			v0.3:
+            -Otimização operacional (eliminação de intervenção do usuário). Não há necessidade do usuário habilitar a ferramenta "Dicas do Mapa", caso esteja desabilitada !!!
+			
+			v0.2:
+            -Melhorias na GUI (Interface Gráfica do Usuário).
+
+# Tags are comma separated with spaces allowed
+tags=IBGE, BTPlan, Anotações
+
+homepage=http://www.ibge.gov.br
+tracker=
+repository=https://mapgit.ibge.gov.br/
+
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+
